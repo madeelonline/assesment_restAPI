@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Product</title>
+</head>
+<body>
+    <h1>Delete Product</h1>
+    <form action="/deleteproduct" method="post">
+        <label for="product">Select Product to Delete:</label>
+        <select id="product" name="product" required>
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <option value="product3">Product 3</option>
+            <!-- Add more product options as needed -->
+        </select><br><br>
+        <input type="submit" value="Delete Product">
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Product</title>
+</head>
+<body>
+    <h1>Update Product</h1>
+    <form action="/updateproduct" method="post">
+        <label for="product">Select Product:</label>
+        <select id="product" name="product" required>
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <option value="product3">Product 3</option>
+            <!-- Add more product options as needed -->
+        </select><br><br>
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" step="0.01" required><br><br>
+        <input type="submit" value="Update Product">
+    </form>
+</body>
+</html>

@@ -1,1 +1,1 @@
-# assesment_restAPI
+# Assessment by using FLask & MySQL
